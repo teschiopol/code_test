@@ -31,6 +31,7 @@ Language: Python/PHP
 Description:
 Suppose you have:
 a `haversine(lat1, lng1, lat2, lng2)` function that returns the distance (measured in km) between the coordinates of two given geographic point (lat and lng are latitude and longitude)
+
 an array of geographical zones (`locations`):
 	locations = [
     	  {'id': 1000, 'zip_code': '37069', 'lat': 45.35, 'lng': 10.84},
@@ -39,6 +40,7 @@ an array of geographical zones (`locations`):
   {'id': 1001, 'zip_code': '37133', 'lat': 45.43, 'lng': 11.02},
   ... 
     	];
+	
 an array of shoppers:
 shoppers = [
     {'id': 'S1', 'lat': 45.46, 'lng': 11.03, 'enabled': true},
@@ -52,11 +54,12 @@ shoppers = [
 
 The goal is to calculate the percentage of the zone covered by enabled shoppers (`coverage`). One shopper covers a zone if the distance among the coordinates is less than 10 km.
 Resulted array should be sorted (desc) as the following one:
+
 sorted = [
   {shopper_id': 'S3', 'coverage': 72},
   {shopper_id': 'S1', 'coverage': 43},
   {shopper_id': 'S6', 'coverage': 12},
 ];
+
 How to submit:
 Complete the source code file named `haversine_coverage.py|php`.
-
