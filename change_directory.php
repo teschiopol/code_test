@@ -52,8 +52,6 @@ class Path {
 				die('Path not valid');
 			}
 		}
-
-		return;
 	}
 
 
