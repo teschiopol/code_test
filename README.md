@@ -1,5 +1,7 @@
 # Code Test
 
+[![CodeFactor](https://www.codefactor.io/repository/github/teschiopol/code_test/badge)](https://www.codefactor.io/repository/github/teschiopol/code_test)
+
 ## TASK 1
 
 Language: PHP
